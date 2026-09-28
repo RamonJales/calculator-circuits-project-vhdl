@@ -1,0 +1,19 @@
+v 4
+file . "top_calculator.vhd" "1f2894f892c16ee50af50432aeca322a6da83e61" "20260928030034.095":
+  entity top_calculator at 1( 0) + 0 on 21;
+  architecture structural of top_calculator at 17( 464) + 0 on 22;
+file . "tb_calculator.vhd" "e4a81c56b53d1927d97b2ce749f29c44b4b96ce6" "20260928030034.094":
+  entity tb_calculator at 1( 0) + 0 on 19;
+  architecture simulation of tb_calculator at 7( 88) + 0 on 20;
+file . "sum_sub.vhd" "63df1817349b81aeb107f20145f2ba2e565fb7cb" "20260928030034.093":
+  entity sum_sub at 1( 0) + 0 on 17;
+  architecture estrutural of sum_sub at 13( 444) + 0 on 18;
+file . "kbd_encoder.vhd" "649f29561498b2432b4cbd57d8cda52d3446e274" "20260928030034.093":
+  entity kbd_encoder at 1( 0) + 0 on 15;
+  architecture combinational of kbd_encoder at 19( 406) + 0 on 16;
+file . "full_adder.vhd" "ecaba2aa61bf606d371e8a18482855381b3ff8a9" "20260928030034.092":
+  entity full_adder at 1( 0) + 0 on 13;
+  architecture hardware_base of full_adder at 15( 280) + 0 on 14;
+file . "bcd7seg.vhd" "f7a8f3fe2c8fb0693a27ed39eb4d87ad2b424c8f" "20260928030034.092":
+  entity bcd7seg at 1( 0) + 0 on 11;
+  architecture behavioral of bcd7seg at 16( 532) + 0 on 12;
